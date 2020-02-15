@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: 5a21775c6a1d9374f88cc3dbbda41ad5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 00-pump
+    100002: 002-controlpanel
+    100004: 003-Machines
+    100006: 003-Safetyglases
+    100008: 01-fuse-plugs-TL
+    100010: 01-fuse-plugs-TL.001
+    100012: 01-fuse-plugs-TL.002
+    100014: 01-fuse-plugs-TL.003
+    100016: 07-fuse-block-M.000
+    100018: 08-fuse-block-M.002
+    100020: 08:15
+    100022: 08:30
+    100024: 0TOOLBOARD
+    100026: aansluitkabel
+    100028: aardlek-yellow/green
+    100030: arc-helmet-blue
+    100032: arc-helmet-green
+    100034: blanket
+    100036: cable-ferquentieregelaar
+    100038: cable-plc
+    100040: cable-relais
+    100042: cable-relais.001
+    100044: cable-relais.002
+    100046: cable-transformator
+    100048: cable-transformator.001
+    100050: cable-transformator.002
+    100052: cable-transformator.003
+    100054: cable-transformator.004
+    100056: calbe-fercuentieregelaar
+    100058: calbe-plc
+    100060: calbe-relais
+    100062: calbe-relais.001
+    100064: calbe-relais.002
+    100066: calbe-transformator
+    100068: cirquit-breaker
+    100070: cirquit-breakers-set
+    100072: cirquit-breakers-set 2
+    100074: Clock - 08:30
+    100076: Clock - 8:15
+    100078: cover
+    100080: d-patroon-houder
+    100082: dopsleutel
+    100084: duspol
+    100086: electric-screwdriver
+    100088: F-black
+    100090: F-brown
+    100092: F-Grey
+    100094: ferquentieschakelaar
+    100096: fuse-dummy 01
+    100098: fuse-dummy 02
+    100100: fuse-dummy 03
+    100102: fuse-puller
+    100104: Gloves
+    100106: handle
+    100108: helmet.001
+    100110: hex bolt 1
+    100112: hex bolt 2
+    100114: hex bolt 3
+    100116: hex bolt 4
+    100118: hoofd-relais
+    100120: hoofdschakelaar
+    100122: hoofdschakelaar-rotary switch
+    100124: hoofdschakelaar-rotary switch.001
+    100126: hoofdschakelaar.001
+    100128: instalatieautomaten
+    100130: interfacerelais
+    100132: isolation-mat
+    100134: label-warning 1
+    100136: label-warning_1_Grid.007
+    100138: lever
+    100140: motor
+    100142: motor-cover.002
+    100144: multitool
+    100146: padlock
+    100148: padlock.001
+    100150: padlock.002
+    100152: padlock.003
+    100154: plastich clamp.001
+    100156: PLC
+    100158: //RootNode
+    100160: relais-set
+    100162: ROUND-SWITCH
+    100164: ROUND-SWITCH.001
+    100166: ROUND-SWITCH.002
+    100168: ROUND-SWITCH.003
+    100170: ROUND-SWITCH.004
+    100172: ROUND-SWITCH.005
+    100174: ROUND-SWITCH.006
+    100176: ROUND-SWITCH.007
+    100178: ROUND-SWITCH.008
+    100180: ROUND-SWITCH.009
+    100182: ROUND-SWITCH.010
+    100184: ROUND-SWITCH.011
+    100186: screwdriver.000
+    100188: screwdriver.001
+    100190: socket
+    100192: switch-1
+    100194: switch-2
+    100196: switch-3
+    100198: Transformator
+    100200: U-1
+    100202: U-2
+    100204: U-3
+    100206: wall-socket
+    100208: wall-socket.001
+    100210: wrench
+    100212: yardstick
+    400000: 00-pump
+    400002: 002-controlpanel
+    400004: 003-Machines
+    400006: 003-Safetyglases
+    400008: 01-fuse-plugs-TL
+    400010: 01-fuse-plugs-TL.001
+    400012: 01-fuse-plugs-TL.002
+    400014: 01-fuse-plugs-TL.003
+    400016: 07-fuse-block-M.000
+    400018: 08-fuse-block-M.002
+    400020: 08:15
+    400022: 08:30
+    400024: 0TOOLBOARD
+    400026: aansluitkabel
+    400028: aardlek-yellow/green
+    400030: arc-helmet-blue
+    400032: arc-helmet-green
+    400034: blanket
+    400036: cable-ferquentieregelaar
+    400038: cable-plc
+    400040: cable-relais
+    400042: cable-relais.001
+    400044: cable-relais.002
+    400046: cable-transformator
+    400048: cable-transformator.001
+    400050: cable-transformator.002
+    400052: cable-transformator.003
+    400054: cable-transformator.004
+    400056: calbe-fercuentieregelaar
+    400058: calbe-plc
+    400060: calbe-relais
+    400062: calbe-relais.001
+    400064: calbe-relais.002
+    400066: calbe-transformator
+    400068: cirquit-breaker
+    400070: cirquit-breakers-set
+    400072: cirquit-breakers-set 2
+    400074: Clock - 08:30
+    400076: Clock - 8:15
+    400078: cover
+    400080: d-patroon-houder
+    400082: dopsleutel
+    400084: duspol
+    400086: electric-screwdriver
+    400088: F-black
+    400090: F-brown
+    400092: F-Grey
+    400094: ferquentieschakelaar
+    400096: fuse-dummy 01
+    400098: fuse-dummy 02
+    400100: fuse-dummy 03
+    400102: fuse-puller
+    400104: Gloves
+    400106: handle
+    400108: helmet.001
+    400110: hex bolt 1
+    400112: hex bolt 2
+    400114: hex bolt 3
+    400116: hex bolt 4
+    400118: hoofd-relais
+    400120: hoofdschakelaar
+    400122: hoofdschakelaar-rotary switch
+    400124: hoofdschakelaar-rotary switch.001
+    400126: hoofdschakelaar.001
+    400128: instalatieautomaten
+    400130: interfacerelais
+    400132: isolation-mat
+    400134: label-warning 1
+    400136: label-warning_1_Grid.007
+    400138: lever
+    400140: motor
+    400142: motor-cover.002
+    400144: multitool
+    400146: padlock
+    400148: padlock.001
+    400150: padlock.002
+    400152: padlock.003
+    400154: plastich clamp.001
+    400156: PLC
+    400158: //RootNode
+    400160: relais-set
+    400162: ROUND-SWITCH
+    400164: ROUND-SWITCH.001
+    400166: ROUND-SWITCH.002
+    400168: ROUND-SWITCH.003
+    400170: ROUND-SWITCH.004
+    400172: ROUND-SWITCH.005
+    400174: ROUND-SWITCH.006
+    400176: ROUND-SWITCH.007
+    400178: ROUND-SWITCH.008
+    400180: ROUND-SWITCH.009
+    400182: ROUND-SWITCH.010
+    400184: ROUND-SWITCH.011
+    400186: screwdriver.000
+    400188: screwdriver.001
+    400190: socket
+    400192: switch-1
+    400194: switch-2
+    400196: switch-3
+    400198: Transformator
+    400200: U-1
+    400202: U-2
+    400204: U-3
+    400206: wall-socket
+    400208: wall-socket.001
+    400210: wrench
+    400212: yardstick
+    2100000: 0-red
+    2100002: 0-whites
+    2100004: No Name
+    2100006: 0-Paper
+    2100008: 0-Metal
+    2100010: 0-black
+    2100012: 0-Machine
+    2100014: 0-pallet
+    2100016: 000_grey
+    2100018: 0-pompwagen.bruin
+    2100020: 0--yellow
+    2100022: 0-grey
+    2100024: 0--pompwagen.grijs
+    2100026: 0-glass
+    2100028: 000_Metal
+    2100030: 0-green
+    2100032: 000_brown
+    2100034: glossy.001
+    2100036: board-blue
+    2100038: board-wit
+    2100040: plier
+    2100042: plier-grey
+    2100044: Material.008
+    2100046: rack
+    2100048: glossy
+    2100050: _Electric Screwd
+    2100052: Material.005
+    2100054: Whites-box
+    2100056: Metal
+    2100058: Material.013
+    2100060: Material.007
+    2100062: flap.001
+    2100064: Safety-helmet.001
+    2100066: black-pastic-holder.001
+    2100068: screen.002
+    2100070: screen.001
+    2100072: Material.011
+    2100074: duspol.001
+    2100076: button.003
+    2100078: pin.001
+    2100080: Material.012
+    2100082: plastic
+    2100084: metal
+    2100086: button.001
+    2100088: button.002
+    2100090: gloves
+    2100092: RUB-GLOVES
+    2100094: Material.009
+    2100096: duspol
+    2100098: box
+    2100100: standart metal
+    2100102: pro red
+    2100104: display
+    2100106: pro black
+    2100108: 'Material #2'
+    2100110: Material.006
+    2100112: Material.014
+    2100114: wheel
+    2100116: standart metal.001
+    2100118: metl
+    2100120: 03 - Default
+    2100122: 01 - Default
+    2100124: 02 - Default
+    2100126: 05 - Default
+    2100128: Material.036
+    2100130: Plastic.003
+    2100132: Material.035
+    2100134: metal.001
+    2300000: 00-pump
+    2300002: 002-controlpanel
+    2300004: 003-Machines
+    2300006: 003-Safetyglases
+    2300008: 01-fuse-plugs-TL
+    2300010: 01-fuse-plugs-TL.001
+    2300012: 01-fuse-plugs-TL.002
+    2300014: 01-fuse-plugs-TL.003
+    2300016: 07-fuse-block-M.000
+    2300018: 08-fuse-block-M.002
+    2300020: 08:15
+    2300022: 08:30
+    2300024: 0TOOLBOARD
+    2300026: aansluitkabel
+    2300028: aardlek-yellow/green
+    2300030: arc-helmet-blue
+    2300032: arc-helmet-green
+    2300034: blanket
+    2300036: cable-ferquentieregelaar
+    2300038: cable-plc
+    2300040: cable-relais
+    2300042: cable-relais.001
+    2300044: cable-relais.002
+    2300046: cable-transformator
+    2300048: cable-transformator.001
+    2300050: cable-transformator.002
+    2300052: cable-transformator.003
+    2300054: cable-transformator.004
+    2300056: calbe-fercuentieregelaar
+    2300058: calbe-plc
+    2300060: calbe-relais
+    2300062: calbe-relais.001
+    2300064: calbe-relais.002
+    2300066: calbe-transformator
+    2300068: cirquit-breaker
+    2300070: cirquit-breakers-set
+    2300072: cirquit-breakers-set 2
+    2300074: Clock - 08:30
+    2300076: Clock - 8:15
+    2300078: cover
+    2300080: d-patroon-houder
+    2300082: dopsleutel
+    2300084: duspol
+    2300086: electric-screwdriver
+    2300088: F-black
+    2300090: F-brown
+    2300092: F-Grey
+    2300094: ferquentieschakelaar
+    2300096: fuse-dummy 01
+    2300098: fuse-dummy 02
+    2300100: fuse-dummy 03
+    2300102: fuse-puller
+    2300104: Gloves
+    2300106: handle
+    2300108: helmet.001
+    2300110: hex bolt 1
+    2300112: hex bolt 2
+    2300114: hex bolt 3
+    2300116: hex bolt 4
+    2300118: hoofd-relais
+    2300120: hoofdschakelaar
+    2300122: hoofdschakelaar-rotary switch
+    2300124: hoofdschakelaar-rotary switch.001
+    2300126: hoofdschakelaar.001
+    2300128: instalatieautomaten
+    2300130: interfacerelais
+    2300132: isolation-mat
+    2300134: label-warning 1
+    2300136: label-warning_1_Grid.007
+    2300138: lever
+    2300140: motor
+    2300142: motor-cover.002
+    2300144: multitool
+    2300146: padlock
+    2300148: padlock.001
+    2300150: padlock.002
+    2300152: padlock.003
+    2300154: plastich clamp.001
+    2300156: PLC
+    2300158: relais-set
+    2300160: ROUND-SWITCH
+    2300162: ROUND-SWITCH.001
+    2300164: ROUND-SWITCH.002
+    2300166: ROUND-SWITCH.003
+    2300168: ROUND-SWITCH.004
+    2300170: ROUND-SWITCH.005
+    2300172: ROUND-SWITCH.006
+    2300174: ROUND-SWITCH.007
+    2300176: ROUND-SWITCH.008
+    2300178: ROUND-SWITCH.009
+    2300180: ROUND-SWITCH.010
+    2300182: ROUND-SWITCH.011
+    2300184: screwdriver.000
+    2300186: screwdriver.001
+    2300188: socket
+    2300190: switch-1
+    2300192: switch-2
+    2300194: switch-3
+    2300196: Transformator
+    2300198: U-1
+    2300200: U-2
+    2300202: U-3
+    2300204: wall-socket
+    2300206: wall-socket.001
+    2300208: wrench
+    2300210: yardstick
+    3300000: 00-pump
+    3300002: 002-controlpanel
+    3300004: 003-Machines
+    3300006: 003-Safetyglases
+    3300008: 01-fuse-plugs-TL
+    3300010: 01-fuse-plugs-TL.001
+    3300012: 01-fuse-plugs-TL.002
+    3300014: 01-fuse-plugs-TL.003
+    3300016: 07-fuse-block-M.000
+    3300018: 08-fuse-block-M.002
+    3300020: 08:15
+    3300022: 08:30
+    3300024: 0TOOLBOARD
+    3300026: aansluitkabel
+    3300028: aardlek-yellow/green
+    3300030: arc-helmet-blue
+    3300032: arc-helmet-green
+    3300034: blanket
+    3300036: cable-ferquentieregelaar
+    3300038: cable-plc
+    3300040: cable-relais
+    3300042: cable-relais.001
+    3300044: cable-relais.002
+    3300046: cable-transformator
+    3300048: cable-transformator.001
+    3300050: cable-transformator.002
+    3300052: cable-transformator.003
+    3300054: cable-transformator.004
+    3300056: calbe-fercuentieregelaar
+    3300058: calbe-plc
+    3300060: calbe-relais
+    3300062: calbe-relais.001
+    3300064: calbe-relais.002
+    3300066: calbe-transformator
+    3300068: cirquit-breaker
+    3300070: cirquit-breakers-set
+    3300072: cirquit-breakers-set 2
+    3300074: Clock - 08:30
+    3300076: Clock - 8:15
+    3300078: cover
+    3300080: d-patroon-houder
+    3300082: dopsleutel
+    3300084: duspol
+    3300086: electric-screwdriver
+    3300088: F-black
+    3300090: F-brown
+    3300092: F-Grey
+    3300094: ferquentieschakelaar
+    3300096: fuse-dummy 01
+    3300098: fuse-dummy 02
+    3300100: fuse-dummy 03
+    3300102: fuse-puller
+    3300104: Gloves
+    3300106: handle
+    3300108: helmet.001
+    3300110: hex bolt 1
+    3300112: hex bolt 2
+    3300114: hex bolt 3
+    3300116: hex bolt 4
+    3300118: hoofd-relais
+    3300120: hoofdschakelaar
+    3300122: hoofdschakelaar-rotary switch
+    3300124: hoofdschakelaar-rotary switch.001
+    3300126: hoofdschakelaar.001
+    3300128: instalatieautomaten
+    3300130: interfacerelais
+    3300132: isolation-mat
+    3300134: label-warning 1
+    3300136: label-warning_1_Grid.007
+    3300138: lever
+    3300140: motor
+    3300142: motor-cover.002
+    3300144: multitool
+    3300146: padlock
+    3300148: padlock.001
+    3300150: padlock.002
+    3300152: padlock.003
+    3300154: plastich clamp.001
+    3300156: PLC
+    3300158: relais-set
+    3300160: ROUND-SWITCH
+    3300162: ROUND-SWITCH.001
+    3300164: ROUND-SWITCH.002
+    3300166: ROUND-SWITCH.003
+    3300168: ROUND-SWITCH.004
+    3300170: ROUND-SWITCH.005
+    3300172: ROUND-SWITCH.006
+    3300174: ROUND-SWITCH.007
+    3300176: ROUND-SWITCH.008
+    3300178: ROUND-SWITCH.009
+    3300180: ROUND-SWITCH.010
+    3300182: ROUND-SWITCH.011
+    3300184: screwdriver.000
+    3300186: screwdriver.001
+    3300188: socket
+    3300190: switch-1
+    3300192: switch-2
+    3300194: switch-3
+    3300196: Transformator
+    3300198: U-1
+    3300200: U-2
+    3300202: U-3
+    3300204: wall-socket
+    3300206: wall-socket.001
+    3300208: wrench
+    3300210: yardstick
+    4300000: fuse-dummy 03
+    4300002: fuse-dummy 02
+    4300004: fuse-dummy 01
+    4300006: label-warning_1_Grid.007
+    4300008: 01-fuse-plugs-TL.003
+    4300010: 01-fuse-plugs-TL.002
+    4300012: 01-fuse-plugs-TL.001
+    4300014: Clock - 08:30
+    4300016: 08:30
+    4300018: wall-socket.001
+    4300020: 003-Machines
+    4300022: 002-controlpanel
+    4300024: d-patroon-houder
+    4300026: padlock
+    4300028: cover
+    4300030: lever
+    4300032: handle
+    4300034: interfacerelais
+    4300036: relais-set
+    4300038: hoofd-relais
+    4300040: calbe-relais.002
+    4300042: calbe-relais.001
+    4300044: calbe-relais
+    4300046: cable-relais.002
+    4300048: cable-relais.001
+    4300050: cable-relais
+    4300052: cirquit-breakers-set 2
+    4300054: cirquit-breakers-set
+    4300056: PLC
+    4300058: calbe-plc
+    4300060: cable-plc
+    4300062: Transformator
+    4300064: calbe-transformator
+    4300066: cable-transformator.004
+    4300068: cable-transformator.003
+    4300070: cable-transformator.002
+    4300072: cable-transformator.001
+    4300074: cable-transformator
+    4300076: calbe-fercuentieregelaar
+    4300078: cirquit-breaker
+    4300080: switch-1
+    4300082: switch-2
+    4300084: switch-3
+    4300086: ferquentieschakelaar
+    4300088: cable-ferquentieregelaar
+    4300090: hoofdschakelaar
+    4300092: hoofdschakelaar-rotary switch
+    4300094: instalatieautomaten
+    4300096: ROUND-SWITCH.011
+    4300098: ROUND-SWITCH.010
+    4300100: ROUND-SWITCH.009
+    4300102: ROUND-SWITCH.008
+    4300104: ROUND-SWITCH.007
+    4300106: ROUND-SWITCH.006
+    4300108: ROUND-SWITCH.005
+    4300110: ROUND-SWITCH.004
+    4300112: ROUND-SWITCH.003
+    4300114: ROUND-SWITCH.002
+    4300116: ROUND-SWITCH.001
+    4300118: ROUND-SWITCH
+    4300120: socket
+    4300122: hoofdschakelaar.001
+    4300124: hoofdschakelaar-rotary switch.001
+    4300126: 00-pump
+    4300128: wall-socket
+    4300130: Clock - 8:15
+    4300132: 08:15
+    4300134: 01-fuse-plugs-TL
+    4300136: motor
+    4300138: aansluitkabel
+    4300140: aardlek-yellow/green
+    4300142: F-black
+    4300144: F-brown
+    4300146: F-Grey
+    4300148: motor-cover.002
+    4300150: hex bolt 1
+    4300152: hex bolt 2
+    4300154: hex bolt 3
+    4300156: hex bolt 4
+    4300158: U-1
+    4300160: U-2
+    4300162: U-3
+    4300164: 0TOOLBOARD
+    4300166: 003-Safetyglases
+    4300168: 07-fuse-block-M.000
+    4300170: 08-fuse-block-M.002
+    4300172: arc-helmet-blue
+    4300174: arc-helmet-green
+    4300176: blanket
+    4300178: duspol
+    4300180: fuse-puller
+    4300182: Gloves
+    4300184: helmet.001
+    4300186: isolation-mat
+    4300188: label-warning 1
+    4300190: multitool
+    4300192: plastich clamp.001
+    4300194: screwdriver.000
+    4300196: screwdriver.001
+    4300198: wrench
+    4300200: yardstick
+    4300202: dopsleutel
+    4300204: electric-screwdriver
+    4300206: padlock.003
+    4300208: padlock.001
+    4300210: padlock.002
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

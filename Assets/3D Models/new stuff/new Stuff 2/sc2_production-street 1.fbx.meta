@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: f1c2529db0525974d9df93eb95d10341
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 0-ARM
+    100002: 00-pump
+    100004: 001- Machine
+    100006: 002-besturingskast
+    100008: 003-MACHINE 2
+    100010: 003-MACHINE 2.001
+    100012: 003-MACHINE 2.002
+    100014: 01-fuse-plugs-TL
+    100016: 01-fuse-plugs-TL.001
+    100018: 01-fuse-plugs-TL.002
+    100020: 01-fuse-plugs-TL.003
+    100022: 08:15
+    100024: 08:30
+    100026: cable-ferquentieregelaar
+    100028: cable-plc
+    100030: cable-relais
+    100032: cable-relais.001
+    100034: cable-relais.002
+    100036: cable-transformator
+    100038: cable-transformator.001
+    100040: cable-transformator.002
+    100042: cable-transformator.003
+    100044: cable-transformator.004
+    100046: calbe-fercuentieregelaar
+    100048: calbe-plc
+    100050: calbe-relais
+    100052: calbe-relais.001
+    100054: calbe-relais.002
+    100056: calbe-transformator
+    100058: cirquit-breaker
+    100060: cirquit-breakers-set
+    100062: cirquit-breakers-set 2
+    100064: Clock - 08:30
+    100066: Clock - 8:15
+    100068: cover
+    100070: d-patroon-houder
+    100072: ferquentieschakelaar
+    100074: handle
+    100076: hex bolt 1
+    100078: hex bolt 2
+    100080: hex bolt 3
+    100082: hex bolt 4
+    100084: hoofd-relais
+    100086: hoofdschakelaar
+    100088: hoofdschakelaar-rotary switch
+    100090: hoofdschakelaar-rotary switch.001
+    100092: hoofdschakelaar.001
+    100094: instalatieautomaten
+    100096: interfacerelais
+    100098: kabelblok
+    100100: kabelblok.001
+    100102: lever
+    100104: motor
+    100106: motor-cover
+    100108: padlock
+    100110: PLC
+    100112: relais-set
+    100114: ROUND-SWITCH
+    100116: ROUND-SWITCH.001
+    100118: ROUND-SWITCH.002
+    100120: ROUND-SWITCH.003
+    100122: ROUND-SWITCH.004
+    100124: ROUND-SWITCH.005
+    100126: ROUND-SWITCH.006
+    100128: ROUND-SWITCH.007
+    100130: ROUND-SWITCH.008
+    100132: ROUND-SWITCH.009
+    100134: ROUND-SWITCH.010
+    100136: ROUND-SWITCH.011
+    100138: //RootNode
+    100140: socket
+    100142: switch-1
+    100144: switch-2
+    100146: switch-3
+    100148: Transformator
+    100150: wall-socket
+    100152: wall-socket.001
+    400000: 0-ARM
+    400002: 00-pump
+    400004: 001- Machine
+    400006: 002-besturingskast
+    400008: 003-MACHINE 2
+    400010: 003-MACHINE 2.001
+    400012: 003-MACHINE 2.002
+    400014: 01-fuse-plugs-TL
+    400016: 01-fuse-plugs-TL.001
+    400018: 01-fuse-plugs-TL.002
+    400020: 01-fuse-plugs-TL.003
+    400022: 08:15
+    400024: 08:30
+    400026: cable-ferquentieregelaar
+    400028: cable-plc
+    400030: cable-relais
+    400032: cable-relais.001
+    400034: cable-relais.002
+    400036: cable-transformator
+    400038: cable-transformator.001
+    400040: cable-transformator.002
+    400042: cable-transformator.003
+    400044: cable-transformator.004
+    400046: calbe-fercuentieregelaar
+    400048: calbe-plc
+    400050: calbe-relais
+    400052: calbe-relais.001
+    400054: calbe-relais.002
+    400056: calbe-transformator
+    400058: cirquit-breaker
+    400060: cirquit-breakers-set
+    400062: cirquit-breakers-set 2
+    400064: Clock - 08:30
+    400066: Clock - 8:15
+    400068: cover
+    400070: d-patroon-houder
+    400072: ferquentieschakelaar
+    400074: handle
+    400076: hex bolt 1
+    400078: hex bolt 2
+    400080: hex bolt 3
+    400082: hex bolt 4
+    400084: hoofd-relais
+    400086: hoofdschakelaar
+    400088: hoofdschakelaar-rotary switch
+    400090: hoofdschakelaar-rotary switch.001
+    400092: hoofdschakelaar.001
+    400094: instalatieautomaten
+    400096: interfacerelais
+    400098: kabelblok
+    400100: kabelblok.001
+    400102: lever
+    400104: motor
+    400106: motor-cover
+    400108: padlock
+    400110: PLC
+    400112: relais-set
+    400114: ROUND-SWITCH
+    400116: ROUND-SWITCH.001
+    400118: ROUND-SWITCH.002
+    400120: ROUND-SWITCH.003
+    400122: ROUND-SWITCH.004
+    400124: ROUND-SWITCH.005
+    400126: ROUND-SWITCH.006
+    400128: ROUND-SWITCH.007
+    400130: ROUND-SWITCH.008
+    400132: ROUND-SWITCH.009
+    400134: ROUND-SWITCH.010
+    400136: ROUND-SWITCH.011
+    400138: //RootNode
+    400140: socket
+    400142: switch-1
+    400144: switch-2
+    400146: switch-3
+    400148: Transformator
+    400150: wall-socket
+    400152: wall-socket.001
+    2100000: Whites-box.001
+    2100002: rood
+    2100004: -pompwagen.009
+    2100006: -0Glass_Clear.001
+    2100008: rood.001
+    2100010: Whites-box
+    2100012: Paper
+    2100014: Metal
+    2100016: 0-Computer
+    2100018: -0Glass_Clear
+    2100020: Material
+    2100022: Machine
+    2100024: pallet
+    2100026: -pompwagen.001
+    2100028: Achterplaat
+    2100030: blauw
+    2100032: -pompwagen
+    2100034: No Name
+    2100036: plaat
+    2100038: -pompwagen.008
+    2100040: -pompwagen.003
+    2100042: -pompwagen.002
+    2100044: motor
+    2100046: metaal
+    2100048: control-panel blauw
+    2100050: -pompwagen.005
+    2100052: Material.002
+    2100054: -pompwagen.004
+    2100056: Material.001
+    2100058: -pompwagen.007
+    2100060: -pompwagen.006
+    2100062: Material.003
+    2300000: 0-ARM
+    2300002: 00-pump
+    2300004: 001- Machine
+    2300006: 002-besturingskast
+    2300008: 003-MACHINE 2
+    2300010: 003-MACHINE 2.001
+    2300012: 003-MACHINE 2.002
+    2300014: 01-fuse-plugs-TL
+    2300016: 01-fuse-plugs-TL.001
+    2300018: 01-fuse-plugs-TL.002
+    2300020: 01-fuse-plugs-TL.003
+    2300022: 08:15
+    2300024: 08:30
+    2300026: cable-ferquentieregelaar
+    2300028: cable-plc
+    2300030: cable-relais
+    2300032: cable-relais.001
+    2300034: cable-relais.002
+    2300036: cable-transformator
+    2300038: cable-transformator.001
+    2300040: cable-transformator.002
+    2300042: cable-transformator.003
+    2300044: cable-transformator.004
+    2300046: calbe-fercuentieregelaar
+    2300048: calbe-plc
+    2300050: calbe-relais
+    2300052: calbe-relais.001
+    2300054: calbe-relais.002
+    2300056: calbe-transformator
+    2300058: cirquit-breaker
+    2300060: cirquit-breakers-set
+    2300062: cirquit-breakers-set 2
+    2300064: Clock - 08:30
+    2300066: Clock - 8:15
+    2300068: cover
+    2300070: d-patroon-houder
+    2300072: ferquentieschakelaar
+    2300074: handle
+    2300076: hex bolt 1
+    2300078: hex bolt 2
+    2300080: hex bolt 3
+    2300082: hex bolt 4
+    2300084: hoofd-relais
+    2300086: hoofdschakelaar
+    2300088: hoofdschakelaar-rotary switch
+    2300090: hoofdschakelaar-rotary switch.001
+    2300092: hoofdschakelaar.001
+    2300094: instalatieautomaten
+    2300096: interfacerelais
+    2300098: kabelblok
+    2300100: kabelblok.001
+    2300102: lever
+    2300104: motor
+    2300106: motor-cover
+    2300108: padlock
+    2300110: PLC
+    2300112: relais-set
+    2300114: ROUND-SWITCH
+    2300116: ROUND-SWITCH.001
+    2300118: ROUND-SWITCH.002
+    2300120: ROUND-SWITCH.003
+    2300122: ROUND-SWITCH.004
+    2300124: ROUND-SWITCH.005
+    2300126: ROUND-SWITCH.006
+    2300128: ROUND-SWITCH.007
+    2300130: ROUND-SWITCH.008
+    2300132: ROUND-SWITCH.009
+    2300134: ROUND-SWITCH.010
+    2300136: ROUND-SWITCH.011
+    2300138: socket
+    2300140: switch-1
+    2300142: switch-2
+    2300144: switch-3
+    2300146: Transformator
+    2300148: wall-socket
+    2300150: wall-socket.001
+    3300000: 0-ARM
+    3300002: 00-pump
+    3300004: 001- Machine
+    3300006: 002-besturingskast
+    3300008: 003-MACHINE 2
+    3300010: 003-MACHINE 2.001
+    3300012: 003-MACHINE 2.002
+    3300014: 01-fuse-plugs-TL
+    3300016: 01-fuse-plugs-TL.001
+    3300018: 01-fuse-plugs-TL.002
+    3300020: 01-fuse-plugs-TL.003
+    3300022: 08:15
+    3300024: 08:30
+    3300026: cable-ferquentieregelaar
+    3300028: cable-plc
+    3300030: cable-relais
+    3300032: cable-relais.001
+    3300034: cable-relais.002
+    3300036: cable-transformator
+    3300038: cable-transformator.001
+    3300040: cable-transformator.002
+    3300042: cable-transformator.003
+    3300044: cable-transformator.004
+    3300046: calbe-fercuentieregelaar
+    3300048: calbe-plc
+    3300050: calbe-relais
+    3300052: calbe-relais.001
+    3300054: calbe-relais.002
+    3300056: calbe-transformator
+    3300058: cirquit-breaker
+    3300060: cirquit-breakers-set
+    3300062: cirquit-breakers-set 2
+    3300064: Clock - 08:30
+    3300066: Clock - 8:15
+    3300068: cover
+    3300070: d-patroon-houder
+    3300072: ferquentieschakelaar
+    3300074: handle
+    3300076: hex bolt 1
+    3300078: hex bolt 2
+    3300080: hex bolt 3
+    3300082: hex bolt 4
+    3300084: hoofd-relais
+    3300086: hoofdschakelaar
+    3300088: hoofdschakelaar-rotary switch
+    3300090: hoofdschakelaar-rotary switch.001
+    3300092: hoofdschakelaar.001
+    3300094: instalatieautomaten
+    3300096: interfacerelais
+    3300098: kabelblok
+    3300100: kabelblok.001
+    3300102: lever
+    3300104: motor
+    3300106: motor-cover
+    3300108: padlock
+    3300110: PLC
+    3300112: relais-set
+    3300114: ROUND-SWITCH
+    3300116: ROUND-SWITCH.001
+    3300118: ROUND-SWITCH.002
+    3300120: ROUND-SWITCH.003
+    3300122: ROUND-SWITCH.004
+    3300124: ROUND-SWITCH.005
+    3300126: ROUND-SWITCH.006
+    3300128: ROUND-SWITCH.007
+    3300130: ROUND-SWITCH.008
+    3300132: ROUND-SWITCH.009
+    3300134: ROUND-SWITCH.010
+    3300136: ROUND-SWITCH.011
+    3300138: socket
+    3300140: switch-1
+    3300142: switch-2
+    3300144: switch-3
+    3300146: Transformator
+    3300148: wall-socket
+    3300150: wall-socket.001
+    4300000: 01-fuse-plugs-TL.003
+    4300002: 01-fuse-plugs-TL.002
+    4300004: 01-fuse-plugs-TL.001
+    4300006: Clock - 08:30
+    4300008: 08:30
+    4300010: wall-socket.001
+    4300012: 003-MACHINE 2.002
+    4300014: 003-MACHINE 2.001
+    4300016: 002-besturingskast
+    4300018: d-patroon-houder
+    4300020: padlock
+    4300022: cover
+    4300024: lever
+    4300026: handle
+    4300028: interfacerelais
+    4300030: relais-set
+    4300032: hoofd-relais
+    4300034: calbe-relais.002
+    4300036: calbe-relais.001
+    4300038: calbe-relais
+    4300040: cable-relais.002
+    4300042: cable-relais.001
+    4300044: cable-relais
+    4300046: cirquit-breakers-set 2
+    4300048: cirquit-breakers-set
+    4300050: PLC
+    4300052: calbe-plc
+    4300054: cable-plc
+    4300056: Transformator
+    4300058: calbe-transformator
+    4300060: cable-transformator.004
+    4300062: cable-transformator.003
+    4300064: cable-transformator.002
+    4300066: cable-transformator.001
+    4300068: cable-transformator
+    4300070: calbe-fercuentieregelaar
+    4300072: cirquit-breaker
+    4300074: switch-1
+    4300076: switch-2
+    4300078: switch-3
+    4300080: ferquentieschakelaar
+    4300082: cable-ferquentieregelaar
+    4300084: hoofdschakelaar
+    4300086: hoofdschakelaar-rotary switch
+    4300088: instalatieautomaten
+    4300090: ROUND-SWITCH.011
+    4300092: ROUND-SWITCH.010
+    4300094: ROUND-SWITCH.009
+    4300096: ROUND-SWITCH.008
+    4300098: ROUND-SWITCH.007
+    4300100: ROUND-SWITCH.006
+    4300102: ROUND-SWITCH.005
+    4300104: ROUND-SWITCH.004
+    4300106: ROUND-SWITCH.003
+    4300108: ROUND-SWITCH.002
+    4300110: ROUND-SWITCH.001
+    4300112: ROUND-SWITCH
+    4300114: socket
+    4300116: hoofdschakelaar.001
+    4300118: hoofdschakelaar-rotary switch.001
+    4300120: 003-MACHINE 2
+    4300122: 00-pump
+    4300124: 001- Machine
+    4300126: 0-ARM
+    4300128: motor
+    4300130: kabelblok.001
+    4300132: motor-cover
+    4300134: hex bolt 1
+    4300136: hex bolt 2
+    4300138: hex bolt 3
+    4300140: hex bolt 4
+    4300142: kabelblok
+    4300144: wall-socket
+    4300146: Clock - 8:15
+    4300148: 08:15
+    4300150: 01-fuse-plugs-TL
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

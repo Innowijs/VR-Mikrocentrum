@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 83778652a2a04b34ab7aca69cf376b70
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 003-Safetyglases
+    100002: 07-fuse-block-M.000
+    100004: 08-fuse-block-M.002
+    100006: 0TOOLBOARD
+    100008: arc-helmet-blue
+    100010: arc-helmet-green
+    100012: blanket
+    100014: Cabinet
+    100016: chair
+    100018: desk
+    100020: Door-L
+    100022: Door-R
+    100024: drill
+    100026: duspol
+    100028: Electric-screwdriver
+    100030: Extintor_0
+    100032: fuse-puller
+    100034: Gloves
+    100036: helmet.001
+    100038: isolation-mat
+    100040: label-warning 1
+    100042: multitool
+    100044: padlock.000
+    100046: phone
+    100048: plant
+    100050: plastich clamp.001
+    100052: screwdriver.000
+    100054: screwdriver.001
+    100056: smal-cabinet
+    100058: //RootNode
+    100060: Wall - proportion mesuring
+    100062: workbenche
+    100064: wrench
+    100066: yardstick
+    400000: 003-Safetyglases
+    400002: 07-fuse-block-M.000
+    400004: 08-fuse-block-M.002
+    400006: 0TOOLBOARD
+    400008: arc-helmet-blue
+    400010: arc-helmet-green
+    400012: blanket
+    400014: Cabinet
+    400016: chair
+    400018: desk
+    400020: Door-L
+    400022: Door-R
+    400024: drill
+    400026: duspol
+    400028: Electric-screwdriver
+    400030: Extintor_0
+    400032: fuse-puller
+    400034: Gloves
+    400036: helmet.001
+    400038: isolation-mat
+    400040: label-warning 1
+    400042: multitool
+    400044: padlock.000
+    400046: phone
+    400048: plant
+    400050: plastich clamp.001
+    400052: screwdriver.000
+    400054: screwdriver.001
+    400056: smal-cabinet
+    400058: //RootNode
+    400060: Wall - proportion mesuring
+    400062: workbenche
+    400064: wrench
+    400066: yardstick
+    2100000: No Name
+    2100002: PHONE
+    2100004: PHONE-screen
+    2100006: PHONE-screen.001
+    2100008: duspol
+    2100010: board-blue
+    2100012: board-wit
+    2100014: plier
+    2100016: plier-grey
+    2100018: Material.008
+    2100020: rack
+    2100022: glossy
+    2100024: _Electric Screwd
+    2100026: Material.014
+    2100028: metal.001
+    2100030: label
+    2100032: Material.010
+    2100034: Safety-helmet.001
+    2100036: black-pastic-holder.001
+    2100038: duspol.001
+    2100040: button.003
+    2100042: pin.001
+    2100044: Material.012
+    2100046: flap.001
+    2100048: screen.001
+    2100050: screen.002
+    2100052: Whites-box
+    2100054: Metal
+    2100056: Material.013
+    2100058: Material.007
+    2100060: Plastic
+    2100062: _Electric Scr1
+    2100064: standart metal.002
+    2100066: gloves
+    2100068: RUB-GLOVES
+    2100070: Material.011
+    2100072: plastic
+    2100074: metal
+    2100076: button.001
+    2100078: button.002
+    2100080: Material.005
+    2100082: Material.009
+    2100084: box
+    2100086: standart metal
+    2100088: pro red
+    2100090: display
+    2100092: pro black
+    2100094: 'Material #2'
+    2100096: Material.006
+    2100098: wheel
+    2100100: standart metal.001
+    2100102: metl
+    2100104: 03 - Default
+    2100106: 01 - Default
+    2100108: 02 - Default
+    2100110: 05 - Default
+    2100112: Metal_ChromeFast
+    2100114: botoes teclado w
+    2100116: Ceramiks
+    2100118: ',Black 2'
+    2100120: 21 - Default
+    2100122: ',Black 1'
+    2100124: mouse www.3d1.co
+    2100126: Ceramiks y
+    2100128: ',Black.001'
+    2100130: fundo teclado ww
+    2100132: Leather besh
+    2100134: wire_027177088
+    2100136: wire_141007058
+    2100138: standart_metal.001
+    2100140: MetalSilver
+    2100142: Material.001
+    2100144: ',Black  2'
+    2100146: 'Material #34'
+    2100148: Impresora Samsun
+    2100150: Impresora Sam3
+    2100152: Impresora Sam2
+    2100154: impresora Samsun
+    2100156: Impresora Sam1
+    2100158: ',Black'
+    2100160: 15 - VRay Materi
+    2100162: leaf
+    2100164: st wood
+    2100166: Ceramiks.001
+    2100168: 'Material #63'
+    2100170: whites
+    2100172: Ceramiks y.001
+    2100174: 'Material #65'
+    2100176: 'Material #66'
+    2100178: 'Material #68'
+    2100180: wire_225198087
+    2100182: wire_227213153
+    2100184: wire_225088199
+    2100186: Material.019
+    2100188: Material.018
+    2100190: b
+    2100192: ',Black.002'
+    2100194: chrome go
+    2100196: Ceram
+    2100198: Material.017
+    2100200: Material.016
+    2100202: Material0
+    2100204: Material2
+    2100206: Material7
+    2100208: Metal_Chrome
+    2100210: Material.000
+    2100212: Material5
+    2100214: Material
+    2100216: CHROME TUSCPW
+    2100218: DRILL
+    2100220: CHROME TUSCANY
+    2100222: Gold nice
+    2100224: BLACK PLSTC
+    2100226: 3iLeather White
+    2100228: WHITE PW
+    2100230: Chromium tap
+    2300000: 003-Safetyglases
+    2300002: 07-fuse-block-M.000
+    2300004: 08-fuse-block-M.002
+    2300006: 0TOOLBOARD
+    2300008: arc-helmet-blue
+    2300010: arc-helmet-green
+    2300012: blanket
+    2300014: Cabinet
+    2300016: chair
+    2300018: desk
+    2300020: Door-L
+    2300022: Door-R
+    2300024: drill
+    2300026: duspol
+    2300028: Electric-screwdriver
+    2300030: Extintor_0
+    2300032: fuse-puller
+    2300034: Gloves
+    2300036: helmet.001
+    2300038: isolation-mat
+    2300040: label-warning 1
+    2300042: multitool
+    2300044: padlock.000
+    2300046: phone
+    2300048: plant
+    2300050: plastich clamp.001
+    2300052: screwdriver.000
+    2300054: screwdriver.001
+    2300056: smal-cabinet
+    2300058: Wall - proportion mesuring
+    2300060: workbenche
+    2300062: wrench
+    2300064: yardstick
+    3300000: 003-Safetyglases
+    3300002: 07-fuse-block-M.000
+    3300004: 08-fuse-block-M.002
+    3300006: 0TOOLBOARD
+    3300008: arc-helmet-blue
+    3300010: arc-helmet-green
+    3300012: blanket
+    3300014: Cabinet
+    3300016: chair
+    3300018: desk
+    3300020: Door-L
+    3300022: Door-R
+    3300024: drill
+    3300026: duspol
+    3300028: Electric-screwdriver
+    3300030: Extintor_0
+    3300032: fuse-puller
+    3300034: Gloves
+    3300036: helmet.001
+    3300038: isolation-mat
+    3300040: label-warning 1
+    3300042: multitool
+    3300044: padlock.000
+    3300046: phone
+    3300048: plant
+    3300050: plastich clamp.001
+    3300052: screwdriver.000
+    3300054: screwdriver.001
+    3300056: smal-cabinet
+    3300058: Wall - proportion mesuring
+    3300060: workbenche
+    3300062: wrench
+    3300064: yardstick
+    4300000: Wall - proportion mesuring
+    4300002: phone
+    4300004: 0TOOLBOARD
+    4300006: screwdriver.000
+    4300008: padlock.000
+    4300010: label-warning 1
+    4300012: helmet.001
+    4300014: duspol
+    4300016: arc-helmet-green
+    4300018: arc-helmet-blue
+    4300020: 07-fuse-block-M.000
+    4300022: 08-fuse-block-M.002
+    4300024: Electric-screwdriver
+    4300026: Gloves
+    4300028: blanket
+    4300030: fuse-puller
+    4300032: 003-Safetyglases
+    4300034: isolation-mat
+    4300036: multitool
+    4300038: plastich clamp.001
+    4300040: screwdriver.001
+    4300042: wrench
+    4300044: yardstick
+    4300046: desk
+    4300048: chair
+    4300050: smal-cabinet
+    4300052: plant
+    4300054: Extintor_0
+    4300056: Cabinet
+    4300058: Door-L
+    4300060: Door-R
+    4300062: workbenche
+    4300064: drill
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

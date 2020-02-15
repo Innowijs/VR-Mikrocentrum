@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 495285f1c60f33f4c96c80923906aa40
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 000-box
+    100002: 007-box.001
+    100004: 07-cables
+    100006: 07-fuse-block-L.001
+    100008: 07-fuse-block-M.001
+    100010: 07-fuse-block-R.001
+    100012: Cube
+    100014: Cylinder.001
+    100016: //RootNode
+    100018: tagname.K10
+    100020: Text
+    100022: Text.009
+    400000: 000-box
+    400002: 007-box.001
+    400004: 07-cables
+    400006: 07-fuse-block-L.001
+    400008: 07-fuse-block-M.001
+    400010: 07-fuse-block-R.001
+    400012: Cube
+    400014: Cylinder.001
+    400016: //RootNode
+    400018: tagname.K10
+    400020: Text
+    400022: Text.009
+    2100000: Whites-box.001
+    2100002: grounding-cablee
+    2100004: grounding-cable-yellow
+    2100006: Material
+    2100008: Whites-box
+    2100010: Metal
+    2100012: little-box
+    2100014: duspol.001
+    2100016: Material.007
+    2300000: 000-box
+    2300002: 007-box.001
+    2300004: 07-cables
+    2300006: 07-fuse-block-L.001
+    2300008: 07-fuse-block-M.001
+    2300010: 07-fuse-block-R.001
+    2300012: Cube
+    2300014: Cylinder.001
+    2300016: tagname.K10
+    2300018: Text
+    2300020: Text.009
+    3300000: 000-box
+    3300002: 007-box.001
+    3300004: 07-cables
+    3300006: 07-fuse-block-L.001
+    3300008: 07-fuse-block-M.001
+    3300010: 07-fuse-block-R.001
+    3300012: Cube
+    3300014: Cylinder.001
+    3300016: tagname.K10
+    3300018: Text
+    3300020: Text.009
+    4300000: Text
+    4300002: Cube
+    4300004: 007-box.001
+    4300006: tagname.K10
+    4300008: Text.009
+    4300010: 07-cables
+    4300012: 07-fuse-block-L.001
+    4300014: 07-fuse-block-M.001
+    4300016: 07-fuse-block-R.001
+    4300018: 000-box
+    4300020: Cylinder.001
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

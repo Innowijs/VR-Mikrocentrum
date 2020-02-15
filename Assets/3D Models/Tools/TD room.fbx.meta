@@ -1,0 +1,700 @@
+fileFormatVersion: 2
+guid: f3309e68a0dcd6341b803c9f2bd40cea
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: $$$DUMMY.Group01
+    100002: 000-hook
+    100004: 000-hook.001
+    100006: 000-hook.002
+    100008: 000-hook.003
+    100010: 000-hook.004
+    100012: 000-hook.005
+    100014: 000-hook.006
+    100016: 000-hook.007
+    100018: 000-hook.008
+    100020: 000-hook.009
+    100022: 000-hook.010
+    100024: 000-hook.011
+    100026: 000-shelve.000
+    100028: 000-shelve.001
+    100030: 000-shelve.002
+    100032: 000-shelve.003
+    100034: 000-shelve.004
+    100036: 000-shelve.005
+    100038: 000-shelve.006
+    100040: 000-Tool-board
+    100042: 002-gloves
+    100044: 002-pin-black
+    100046: 002-pin-red
+    100048: 003-multitool
+    100050: 003-Safetyglases
+    100052: 004-Basket-LoTo
+    100054: 004-Basket-LoTo.001
+    100056: 01-workbenche-1.
+    100058: 07-fuse-block-M.000
+    100060: 07-fuse-block-M.001
+    100062: 07-fuse-block-M.002
+    100064: 16882_luggage_lock.000
+    100066: 16882_luggage_lock.001
+    100068: 16882_luggage_lock.002
+    100070: 16882_luggage_lock.003
+    100072: 16882_luggage_lock.004
+    100074: arc-helmet
+    100076: arc-helmet.001
+    100078: arc-helmet.002
+    100080: basket-tools
+    100082: basket-tools.001
+    100084: basket-tools2
+    100086: Bench_Bac1.003
+    100088: blanket
+    100090: btn
+    100092: button
+    100094: button.001
+    100096: Cabinet
+    100098: cable
+    100100: chair
+    100102: D9010Man.002
+    100104: desk
+    100106: Door-L
+    100108: Door-R
+    100110: drill
+    100112: duspol-L
+    100114: duspol-R
+    100116: Electric_2
+    100118: Extintor_0
+    100120: flap
+    100122: flap.001
+    100124: Fuse
+    100126: fuse-puller
+    100128: Fuse.001
+    100130: Fuse.002
+    100132: Fuse.003
+    100134: Fuse.004
+    100136: Gloces
+    100138: Grid
+    100140: Grid.001
+    100142: Grid.002
+    100144: Grid.003
+    100146: Grid.004
+    100148: Grid.005
+    100150: holder
+    100152: holder.000
+    100154: holder.002
+    100156: holder.014
+    100158: isolation-mat
+    100160: Mesh01
+    100162: padlock.000
+    100164: padlock.001
+    100166: padlock.002
+    100168: pl.Model26
+    100170: pl.Model26.001
+    100172: plant
+    100174: plastich clamp
+    100176: plastich clamp.001
+    100178: printer
+    100180: Rectangle0
+    100182: screen-holder
+    100184: screen-holder.001
+    100186: screwdriver.001
+    100188: screwdrivers
+    100190: smal-cabinet
+    100192: sub02
+    100194: //RootNode
+    100196: trolley1
+    100198: Tube001
+    100200: Wrench
+    100202: yardstick
+    400000: $$$DUMMY.Group01
+    400002: 000-hook
+    400004: 000-hook.001
+    400006: 000-hook.002
+    400008: 000-hook.003
+    400010: 000-hook.004
+    400012: 000-hook.005
+    400014: 000-hook.006
+    400016: 000-hook.007
+    400018: 000-hook.008
+    400020: 000-hook.009
+    400022: 000-hook.010
+    400024: 000-hook.011
+    400026: 000-shelve.000
+    400028: 000-shelve.001
+    400030: 000-shelve.002
+    400032: 000-shelve.003
+    400034: 000-shelve.004
+    400036: 000-shelve.005
+    400038: 000-shelve.006
+    400040: 000-Tool-board
+    400042: 002-gloves
+    400044: 002-pin-black
+    400046: 002-pin-red
+    400048: 003-multitool
+    400050: 003-Safetyglases
+    400052: 004-Basket-LoTo
+    400054: 004-Basket-LoTo.001
+    400056: 01-workbenche-1.
+    400058: 07-fuse-block-M.000
+    400060: 07-fuse-block-M.001
+    400062: 07-fuse-block-M.002
+    400064: 16882_luggage_lock.000
+    400066: 16882_luggage_lock.001
+    400068: 16882_luggage_lock.002
+    400070: 16882_luggage_lock.003
+    400072: 16882_luggage_lock.004
+    400074: arc-helmet
+    400076: arc-helmet.001
+    400078: arc-helmet.002
+    400080: basket-tools
+    400082: basket-tools.001
+    400084: basket-tools2
+    400086: Bench_Bac1.003
+    400088: blanket
+    400090: btn
+    400092: button
+    400094: button.001
+    400096: Cabinet
+    400098: cable
+    400100: chair
+    400102: D9010Man.002
+    400104: desk
+    400106: Door-L
+    400108: Door-R
+    400110: drill
+    400112: duspol-L
+    400114: duspol-R
+    400116: Electric_2
+    400118: Extintor_0
+    400120: flap
+    400122: flap.001
+    400124: Fuse
+    400126: fuse-puller
+    400128: Fuse.001
+    400130: Fuse.002
+    400132: Fuse.003
+    400134: Fuse.004
+    400136: Gloces
+    400138: Grid
+    400140: Grid.001
+    400142: Grid.002
+    400144: Grid.003
+    400146: Grid.004
+    400148: Grid.005
+    400150: holder
+    400152: holder.000
+    400154: holder.002
+    400156: holder.014
+    400158: isolation-mat
+    400160: Mesh01
+    400162: padlock.000
+    400164: padlock.001
+    400166: padlock.002
+    400168: pl.Model26
+    400170: pl.Model26.001
+    400172: plant
+    400174: plastich clamp
+    400176: plastich clamp.001
+    400178: printer
+    400180: Rectangle0
+    400182: screen-holder
+    400184: screen-holder.001
+    400186: screwdriver.001
+    400188: screwdrivers
+    400190: smal-cabinet
+    400192: sub02
+    400194: //RootNode
+    400196: trolley1
+    400198: Tube001
+    400200: Wrench
+    400202: yardstick
+    2100000: Safety-helmet.001
+    2100002: black-pastic-holder.001
+    2100004: flap.001
+    2100006: screen.001
+    2100008: Whites-box
+    2100010: Metal
+    2100012: Material.002
+    2100014: duspol
+    2100016: Material.004
+    2100018: glossy black
+    2100020: Material.003
+    2100022: metal.001
+    2100024: label
+    2100026: Material.010
+    2100028: No Name
+    2100030: Material.006
+    2100032: RUB-GLOVES
+    2100034: gloves
+    2100036: Material.005
+    2100038: Material.008
+    2100040: box
+    2100042: display
+    2100044: pro black
+    2100046: standart metal
+    2100048: 'Material #2'
+    2100050: pro red
+    2100052: Material.007
+    2100054: Material.013
+    2100056: standart metal.001
+    2100058: wheel
+    2100060: Material.011
+    2100062: button
+    2100064: pin
+    2100066: Material.015
+    2100068: plastic
+    2100070: metal
+    2100072: button.001
+    2100074: button.002
+    2100076: Material.009
+    2100078: Material.014
+    2100080: D909G
+    2100082: D909Gr
+    2100084: D910Cro
+    2100086: D910P01
+    2100088: 01 - Default
+    2100090: 03 - Default
+    2100092: metl
+    2100094: 02 - Default
+    2100096: 05 - Default
+    2100098: Plastic
+    2100100: _Electric Screwd
+    2100102: _Electric Scr1
+    2100104: standart metal.002
+    2100106: Metal_ChromeFast
+    2100108: 21 - Default
+    2100110: Ceramiks y
+    2100112: Ceramiks
+    2100114: botoes teclado w
+    2100116: fundo teclado ww
+    2100118: ',Black 2'
+    2100120: ',Black 1'
+    2100122: glossy
+    2100124: Leather besh
+    2100126: ',Black.001'
+    2100128: mouse www.3d1.co
+    2100130: wire_027177088
+    2100132: wire_141007058
+    2100134: standart_metal.001
+    2100136: MetalSilver
+    2100138: Material.001
+    2100140: ',Black  2'
+    2100142: 'Material #34'
+    2100144: Impresora Samsun
+    2100146: Impresora Sam3
+    2100148: Impresora Sam2
+    2100150: impresora Samsun
+    2100152: Impresora Sam1
+    2100154: ',Black'
+    2100156: 15 - VRay Materi
+    2100158: leaf
+    2100160: st wood
+    2100162: Ceramiks.001
+    2100164: 'Material #63'
+    2100166: whites
+    2100168: Ceramiks y.001
+    2100170: 'Material #65'
+    2100172: 'Material #66'
+    2100174: 'Material #68'
+    2100176: wire_225198087
+    2100178: wire_227213153
+    2100180: wire_225088199
+    2100182: Material.019
+    2100184: Material.018
+    2100186: DRILL
+    2100188: Gold nice
+    2100190: 3iLeather White
+    2100192: CHROME TUSCANY
+    2100194: CHROME TUSCPW
+    2100196: WHITE PW
+    2100198: BLACK PLSTC
+    2100200: Chromium tap
+    2100202: b
+    2100204: chrome go
+    2100206: ',Black.002'
+    2100208: Ceram
+    2100210: Material.017
+    2100212: Material.016
+    2100214: Material0
+    2100216: Material5
+    2100218: Metal_Chrome
+    2100220: Material7
+    2100222: Material
+    2100224: Material.000
+    2100226: Material2
+    2100228: standart metal.003
+    2100230: screen.002
+    2300000: 000-hook
+    2300002: 000-hook.001
+    2300004: 000-hook.002
+    2300006: 000-hook.003
+    2300008: 000-hook.004
+    2300010: 000-hook.005
+    2300012: 000-hook.006
+    2300014: 000-hook.007
+    2300016: 000-hook.008
+    2300018: 000-hook.009
+    2300020: 000-hook.010
+    2300022: 000-hook.011
+    2300024: 000-shelve.000
+    2300026: 000-shelve.001
+    2300028: 000-shelve.002
+    2300030: 000-shelve.003
+    2300032: 000-shelve.004
+    2300034: 000-shelve.005
+    2300036: 000-shelve.006
+    2300038: 000-Tool-board
+    2300040: 002-gloves
+    2300042: 002-pin-black
+    2300044: 002-pin-red
+    2300046: 003-multitool
+    2300048: 003-Safetyglases
+    2300050: 004-Basket-LoTo
+    2300052: 004-Basket-LoTo.001
+    2300054: 01-workbenche-1.
+    2300056: 07-fuse-block-M.000
+    2300058: 07-fuse-block-M.001
+    2300060: 07-fuse-block-M.002
+    2300062: 16882_luggage_lock.000
+    2300064: 16882_luggage_lock.001
+    2300066: 16882_luggage_lock.002
+    2300068: 16882_luggage_lock.003
+    2300070: 16882_luggage_lock.004
+    2300072: arc-helmet
+    2300074: arc-helmet.001
+    2300076: arc-helmet.002
+    2300078: basket-tools
+    2300080: basket-tools.001
+    2300082: basket-tools2
+    2300084: Bench_Bac1.003
+    2300086: blanket
+    2300088: btn
+    2300090: button
+    2300092: button.001
+    2300094: Cabinet
+    2300096: cable
+    2300098: chair
+    2300100: D9010Man.002
+    2300102: desk
+    2300104: Door-L
+    2300106: Door-R
+    2300108: drill
+    2300110: duspol-L
+    2300112: duspol-R
+    2300114: Electric_2
+    2300116: Extintor_0
+    2300118: flap
+    2300120: flap.001
+    2300122: Fuse
+    2300124: fuse-puller
+    2300126: Fuse.001
+    2300128: Fuse.002
+    2300130: Fuse.003
+    2300132: Fuse.004
+    2300134: Gloces
+    2300136: Grid
+    2300138: Grid.001
+    2300140: Grid.002
+    2300142: Grid.003
+    2300144: Grid.004
+    2300146: Grid.005
+    2300148: holder
+    2300150: holder.000
+    2300152: holder.002
+    2300154: holder.014
+    2300156: isolation-mat
+    2300158: Mesh01
+    2300160: padlock.000
+    2300162: padlock.001
+    2300164: padlock.002
+    2300166: pl.Model26
+    2300168: pl.Model26.001
+    2300170: plant
+    2300172: plastich clamp
+    2300174: plastich clamp.001
+    2300176: Rectangle0
+    2300178: screen-holder
+    2300180: screen-holder.001
+    2300182: screwdriver.001
+    2300184: smal-cabinet
+    2300186: sub02
+    2300188: trolley1
+    2300190: Tube001
+    2300192: yardstick
+    3300000: 000-hook
+    3300002: 000-hook.001
+    3300004: 000-hook.002
+    3300006: 000-hook.003
+    3300008: 000-hook.004
+    3300010: 000-hook.005
+    3300012: 000-hook.006
+    3300014: 000-hook.007
+    3300016: 000-hook.008
+    3300018: 000-hook.009
+    3300020: 000-hook.010
+    3300022: 000-hook.011
+    3300024: 000-shelve.000
+    3300026: 000-shelve.001
+    3300028: 000-shelve.002
+    3300030: 000-shelve.003
+    3300032: 000-shelve.004
+    3300034: 000-shelve.005
+    3300036: 000-shelve.006
+    3300038: 000-Tool-board
+    3300040: 002-gloves
+    3300042: 002-pin-black
+    3300044: 002-pin-red
+    3300046: 003-multitool
+    3300048: 003-Safetyglases
+    3300050: 004-Basket-LoTo
+    3300052: 004-Basket-LoTo.001
+    3300054: 01-workbenche-1.
+    3300056: 07-fuse-block-M.000
+    3300058: 07-fuse-block-M.001
+    3300060: 07-fuse-block-M.002
+    3300062: 16882_luggage_lock.000
+    3300064: 16882_luggage_lock.001
+    3300066: 16882_luggage_lock.002
+    3300068: 16882_luggage_lock.003
+    3300070: 16882_luggage_lock.004
+    3300072: arc-helmet
+    3300074: arc-helmet.001
+    3300076: arc-helmet.002
+    3300078: basket-tools
+    3300080: basket-tools.001
+    3300082: basket-tools2
+    3300084: Bench_Bac1.003
+    3300086: blanket
+    3300088: btn
+    3300090: button
+    3300092: button.001
+    3300094: Cabinet
+    3300096: cable
+    3300098: chair
+    3300100: D9010Man.002
+    3300102: desk
+    3300104: Door-L
+    3300106: Door-R
+    3300108: drill
+    3300110: duspol-L
+    3300112: duspol-R
+    3300114: Electric_2
+    3300116: Extintor_0
+    3300118: flap
+    3300120: flap.001
+    3300122: Fuse
+    3300124: fuse-puller
+    3300126: Fuse.001
+    3300128: Fuse.002
+    3300130: Fuse.003
+    3300132: Fuse.004
+    3300134: Gloces
+    3300136: Grid
+    3300138: Grid.001
+    3300140: Grid.002
+    3300142: Grid.003
+    3300144: Grid.004
+    3300146: Grid.005
+    3300148: holder
+    3300150: holder.000
+    3300152: holder.002
+    3300154: holder.014
+    3300156: isolation-mat
+    3300158: Mesh01
+    3300160: padlock.000
+    3300162: padlock.001
+    3300164: padlock.002
+    3300166: pl.Model26
+    3300168: pl.Model26.001
+    3300170: plant
+    3300172: plastich clamp
+    3300174: plastich clamp.001
+    3300176: Rectangle0
+    3300178: screen-holder
+    3300180: screen-holder.001
+    3300182: screwdriver.001
+    3300184: smal-cabinet
+    3300186: sub02
+    3300188: trolley1
+    3300190: Tube001
+    3300192: yardstick
+    4300000: arc-helmet.002
+    4300002: flap.001
+    4300004: screen-holder.001
+    4300006: arc-helmet.001
+    4300008: 07-fuse-block-M.002
+    4300010: 07-fuse-block-M.000
+    4300012: Grid.005
+    4300014: Grid.004
+    4300016: Grid.003
+    4300018: Grid.002
+    4300020: Grid.001
+    4300022: Grid
+    4300024: pl.Model26.001
+    4300026: pl.Model26
+    4300028: 000-Tool-board
+    4300030: padlock.002
+    4300032: 16882_luggage_lock.004
+    4300034: padlock.000
+    4300036: 16882_luggage_lock.003
+    4300038: 000-shelve.006
+    4300040: 004-Basket-LoTo.001
+    4300042: 000-hook.011
+    4300044: 000-hook.010
+    4300046: 000-hook.009
+    4300048: plastich clamp.001
+    4300050: 000-hook.008
+    4300052: 000-shelve.005
+    4300054: 000-hook.001
+    4300056: 000-hook.002
+    4300058: 000-hook.003
+    4300060: 000-hook.004
+    4300062: 000-hook.005
+    4300064: 000-hook.006
+    4300066: 000-hook.007
+    4300068: 000-hook
+    4300070: 000-shelve.001
+    4300072: 000-shelve.002
+    4300074: 000-shelve.000
+    4300076: 000-shelve.003
+    4300078: 000-shelve.004
+    4300080: 002-gloves
+    4300082: Gloces
+    4300084: 003-Safetyglases
+    4300086: 003-multitool
+    4300088: Tube001
+    4300090: btn
+    4300092: 002-pin-black
+    4300094: 002-pin-red
+    4300096: Rectangle0
+    4300098: 004-Basket-LoTo
+    4300100: Fuse
+    4300102: Fuse.001
+    4300104: Fuse.002
+    4300106: Fuse.003
+    4300108: Fuse.004
+    4300110: holder
+    4300112: basket-tools
+    4300114: basket-tools.001
+    4300116: basket-tools2
+    4300118: blanket
+    4300120: duspol-L
+    4300122: cable
+    4300124: button.001
+    4300126: duspol-R
+    4300128: button
+    4300130: fuse-puller
+    4300132: isolation-mat
+    4300134: padlock.001
+    4300136: 16882_luggage_lock.001
+    4300138: plastich clamp
+    4300140: screwdriver.001
+    4300142: D9010Man.002
+    4300144: yardstick
+    4300146: Electric_2
+    4300148: 16882_luggage_lock.002
+    4300150: 16882_luggage_lock.000
+    4300152: desk
+    4300154: chair
+    4300156: smal-cabinet
+    4300158: Mesh01
+    4300160: plant
+    4300162: Extintor_0
+    4300164: Cabinet
+    4300166: Door-L
+    4300168: Door-R
+    4300170: 01-workbenche-1.
+    4300172: drill
+    4300174: trolley1
+    4300176: Bench_Bac1.003
+    4300178: holder.000
+    4300180: holder.002
+    4300182: holder.014
+    4300184: sub02
+    4300186: 07-fuse-block-M.001
+    4300188: arc-helmet
+    4300190: screen-holder
+    4300192: flap
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
