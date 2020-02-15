@@ -342,13 +342,16 @@ public class FuseBoxScript : MonoBehaviour
             }
             else if (hit.transform.parent.name == "fuses" && duspolOn)
             {
-                manager.lineCheck[5] = true;
-                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || test)
+                if ()
                 {
-                    test = false;
+                    manager.lineCheck[5] = true;
+                    if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || test)
+                    {
+                        test = false;
 
-                    phoneBeforeIsolation = true;
-                    checkFuse(hit.transform.gameObject);
+                        phoneBeforeIsolation = true;
+                        checkFuse(hit.transform.gameObject);
+                    }
                 }
             }
             else if (hit.transform.parent.name == "fuses" && gridsOn)
