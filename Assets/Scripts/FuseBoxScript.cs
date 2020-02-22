@@ -333,16 +333,19 @@ public class FuseBoxScript : MonoBehaviour
             //}
             else if (hit.transform.parent.name == "fuses" && multitoolOn) // pri vtoriq
             {
-                manager.lineCheck[5] = true;
-                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || test)
+                if (isolationOnFuseBox == false)
                 {
-                    test = false;
-                    checkFuseMultitool(hit.transform.gameObject);
+                    manager.lineCheck[5] = true;
+                    if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || test)
+                    {
+                        test = false;
+                        checkFuseMultitool(hit.transform.gameObject);
+                    }
                 }
             }
             else if (hit.transform.parent.name == "fuses" && duspolOn)
             {
-                if ()
+                if (isolationOnFuseBox==false)
                 {
                     manager.lineCheck[5] = true;
                     if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || test)

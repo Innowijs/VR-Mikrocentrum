@@ -39,7 +39,7 @@ public class TeleportationManager : MonoBehaviour {
         else if (name == "0")
         {
             bubbleWithText.SetActive(true);
-            bubbleText.text = "Main Menu";
+            bubbleText.text = "Menu";
         }
     }
 
@@ -50,6 +50,7 @@ public class TeleportationManager : MonoBehaviour {
         {
             if (blockRaycast)
             {
+                bubbleWithText.SetActive(false);
                 return;
             }
             if (hit.transform.parent.name == "Teleports")

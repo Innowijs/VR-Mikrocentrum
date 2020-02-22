@@ -46,6 +46,7 @@ public class TeleportManager2 : MonoBehaviour
         {
             if (blockRaycast)
             {
+                bubbleWithText.SetActive(false);
                 return;
             }
             if (hit.transform.parent.name == "Teleports")

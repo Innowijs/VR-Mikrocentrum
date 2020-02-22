@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: e202a9989df540c488b3525c017102bc
+  - enabled: 0
     path: Assets/Scenes/Assignment1.unity
     guid: c713d12707ccfd540a685cf74bea3bcc
   - enabled: 0
     path: Assets/Scenes/Assignment2.unity
     guid: 2d9b325790d5d9245976cb0a75fee4c2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/OnlyTutorial.unity
     guid: 63d6b7c314b30ed4f84156f304dac91d
   m_configObjects: {}

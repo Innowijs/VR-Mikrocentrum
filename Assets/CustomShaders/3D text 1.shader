@@ -1,4 +1,4 @@
-Shader "GUI/3D Text ShaderClock" { 
+Shader "GUI/3D Text ShaderClock1" { 
 	Properties {
 		_MainTex ("Font Texture", 2D) = "red" {}
 		_Color ("Text Color", Color) = (1,1,1,1)
