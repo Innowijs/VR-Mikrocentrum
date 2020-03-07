@@ -1,0 +1,495 @@
+fileFormatVersion: 2
+guid: 4e74678ea060d1a41bba951fe1c7d776
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: $$$DUMMY.Group01
+    100002: 003-Safetyglases
+    100004: 07-fuse-block-M.000
+    100006: 08-fuse-block-M.002
+    100008: 08:15
+    100010: 0TOOLBOARD
+    100012: arc-helmet-blue
+    100014: arc-helmet-green
+    100016: blanket
+    100018: BureauLaden
+    100020: Cabinet
+    100022: Cabinet.001
+    100024: Clock - 8:15
+    100026: desk
+    100028: desk.001
+    100030: door
+    100032: Door-L
+    100034: Door-L.001
+    100036: Door-R
+    100038: Door-R.001
+    100040: dopsleutel
+    100042: drill.001
+    100044: duspol
+    100046: electric-screwdriver
+    100048: Extintor_0
+    100050: fuse-puller
+    100052: Gloves
+    100054: helmet.001
+    100056: isolation-mat
+    100058: label-warning 1
+    100060: Ladekast
+    100062: metal04
+    100064: multitool
+    100066: padlock
+    100068: padlock.001
+    100070: padlock.002
+    100072: phone
+    100074: plant
+    100076: plastich clamp.001
+    100078: screwdriver.000
+    100080: screwdriver.001
+    100082: smal-cabinet
+    100084: //RootNode
+    100086: Wall - proportion mesuring
+    100088: wall-socket
+    100090: wall-socket.001
+    100092: wall-socket.002
+    100094: Werkbank1
+    100096: window
+    100098: workbenche.001
+    100100: wrench
+    100102: yardstick
+    400000: $$$DUMMY.Group01
+    400002: 003-Safetyglases
+    400004: 07-fuse-block-M.000
+    400006: 08-fuse-block-M.002
+    400008: 08:15
+    400010: 0TOOLBOARD
+    400012: arc-helmet-blue
+    400014: arc-helmet-green
+    400016: blanket
+    400018: BureauLaden
+    400020: Cabinet
+    400022: Cabinet.001
+    400024: Clock - 8:15
+    400026: desk
+    400028: desk.001
+    400030: door
+    400032: Door-L
+    400034: Door-L.001
+    400036: Door-R
+    400038: Door-R.001
+    400040: dopsleutel
+    400042: drill.001
+    400044: duspol
+    400046: electric-screwdriver
+    400048: Extintor_0
+    400050: fuse-puller
+    400052: Gloves
+    400054: helmet.001
+    400056: isolation-mat
+    400058: label-warning 1
+    400060: Ladekast
+    400062: metal04
+    400064: multitool
+    400066: padlock
+    400068: padlock.001
+    400070: padlock.002
+    400072: phone
+    400074: plant
+    400076: plastich clamp.001
+    400078: screwdriver.000
+    400080: screwdriver.001
+    400082: smal-cabinet
+    400084: //RootNode
+    400086: Wall - proportion mesuring
+    400088: wall-socket
+    400090: wall-socket.001
+    400092: wall-socket.002
+    400094: Werkbank1
+    400096: window
+    400098: workbenche.001
+    400100: wrench
+    400102: yardstick
+    2100000: metal.001
+    2100002: Whites-box.001
+    2100004: board-wit
+    2100006: b.001
+    2100008: ',Black.004'
+    2100010: chrome go.001
+    2100012: Ceram.001
+    2100014: Material.029
+    2100016: Material2.001
+    2100018: Material7.001
+    2100020: Metal_Chrome.001
+    2100022: Material.031
+    2100024: Material5.001
+    2100026: Material0.001
+    2100028: Material.026
+    2100030: Material.022
+    2100032: CHROME TUSCPW.001
+    2100034: DRILL.001
+    2100036: CHROME TUSCANY.001
+    2100038: Gold nice.001
+    2100040: BLACK PLSTC.001
+    2100042: 3iLeather White.001
+    2100044: WHITE PW.001
+    2100046: Chromium tap.001
+    2100048: wire_225198087.001
+    2100050: wire_227213153.001
+    2100052: wire_225088199.001
+    2100054: Metal_ChromeFast.001
+    2100056: botoes teclado w.001
+    2100058: Ceramiks.003
+    2100060: ',Black 2.001'
+    2100062: 21 - Default.001
+    2100064: ',Black 1.001'
+    2100066: mouse www.3d1.co.001
+    2100068: Ceramiks y.002
+    2100070: glossy.001
+    2100072: ',Black.003'
+    2100074: fundo teclado ww.001
+    2100076: Leather besh.001
+    2100078: No Name
+    2100080: PHONE
+    2100082: PHONE-screen
+    2100084: PHONE-screen.001
+    2100086: board-blue
+    2100088: plier
+    2100090: plier-grey
+    2100092: Material.008
+    2100094: rack
+    2100096: glossy
+    2100098: _Electric Screwd
+    2100100: Material.014
+    2100102: duspol
+    2100104: Safety-helmet.001
+    2100106: black-pastic-holder.001
+    2100108: duspol.001
+    2100110: button.003
+    2100112: pin.001
+    2100114: Material.012
+    2100116: flap.001
+    2100118: screen.001
+    2100120: screen.002
+    2100122: Whites-box
+    2100124: Metal
+    2100126: Material.013
+    2100128: Material.007
+    2100130: gloves
+    2100132: RUB-GLOVES
+    2100134: Material.011
+    2100136: plastic
+    2100138: metal
+    2100140: button.001
+    2100142: button.002
+    2100144: Material.005
+    2100146: Material.009
+    2100148: box
+    2100150: standart metal
+    2100152: pro red
+    2100154: display
+    2100156: pro black
+    2100158: 'Material #2'
+    2100160: Material.006
+    2100162: wheel
+    2100164: standart metal.001
+    2100166: metl
+    2100168: 03 - Default
+    2100170: 01 - Default
+    2100172: 02 - Default
+    2100174: 05 - Default
+    2100176: Metal_ChromeFast
+    2100178: botoes teclado w
+    2100180: Ceramiks
+    2100182: ',Black 2'
+    2100184: 21 - Default
+    2100186: ',Black 1'
+    2100188: mouse www.3d1.co
+    2100190: Ceramiks y
+    2100192: ',Black.001'
+    2100194: fundo teclado ww
+    2100196: Leather besh
+    2100198: standart_metal.001
+    2100200: MetalSilver
+    2100202: Material.001
+    2100204: ',Black  2'
+    2100206: 'Material #34'
+    2100208: Impresora Samsun
+    2100210: Impresora Sam3
+    2100212: Impresora Sam2
+    2100214: impresora Samsun
+    2100216: Impresora Sam1
+    2100218: ',Black.006'
+    2100220: 15 - VRay Materi
+    2100222: leaf
+    2100224: st wood
+    2100226: Ceramiks.001
+    2100228: 'Material #63'
+    2100230: whites
+    2100232: Ceramiks y.001
+    2100234: 'Material #65'
+    2100236: 'Material #66'
+    2100238: 'Material #68'
+    2100240: wire_225198087
+    2100242: wire_227213153
+    2100244: wire_225088199
+    2100246: Material.036
+    2100248: Plastic.003
+    2100250: Material.035
+    2100252: -pompwagen.009
+    2100254: -0Glass_Clear.001
+    2100256: rood.001
+    2100258: Plastic2
+    2100260: st leather2
+    2100262: st gold1
+    2100264: Plastic1
+    2100266: Mat win1
+    2100268: st leather1
+    2100270: standart meta1
+    2100272: st gold
+    2100274: Plastic.004
+    2100276: Mat win
+    2100278: st leather
+    2100280: standart metal.006
+    2100282: 0-black
+    2100284: Metaal
+    2100286: LichtMetaal
+    2100288: 0--pompwagen.grijs
+    2100290: DonkerMetaal
+    2100292: 0-pallet
+    2100294: wire_027177088.002
+    2100296: wire_141007058.001
+    2300000: 003-Safetyglases
+    2300002: 07-fuse-block-M.000
+    2300004: 08-fuse-block-M.002
+    2300006: 08:15
+    2300008: 0TOOLBOARD
+    2300010: arc-helmet-blue
+    2300012: arc-helmet-green
+    2300014: blanket
+    2300016: BureauLaden
+    2300018: Cabinet
+    2300020: Cabinet.001
+    2300022: Clock - 8:15
+    2300024: desk
+    2300026: desk.001
+    2300028: door
+    2300030: Door-L
+    2300032: Door-L.001
+    2300034: Door-R
+    2300036: Door-R.001
+    2300038: dopsleutel
+    2300040: drill.001
+    2300042: duspol
+    2300044: electric-screwdriver
+    2300046: Extintor_0
+    2300048: fuse-puller
+    2300050: Gloves
+    2300052: helmet.001
+    2300054: isolation-mat
+    2300056: label-warning 1
+    2300058: Ladekast
+    2300060: metal04
+    2300062: multitool
+    2300064: padlock
+    2300066: padlock.001
+    2300068: padlock.002
+    2300070: phone
+    2300072: plant
+    2300074: plastich clamp.001
+    2300076: screwdriver.000
+    2300078: screwdriver.001
+    2300080: smal-cabinet
+    2300082: Wall - proportion mesuring
+    2300084: wall-socket
+    2300086: wall-socket.001
+    2300088: wall-socket.002
+    2300090: Werkbank1
+    2300092: window
+    2300094: workbenche.001
+    2300096: wrench
+    2300098: yardstick
+    3300000: 003-Safetyglases
+    3300002: 07-fuse-block-M.000
+    3300004: 08-fuse-block-M.002
+    3300006: 08:15
+    3300008: 0TOOLBOARD
+    3300010: arc-helmet-blue
+    3300012: arc-helmet-green
+    3300014: blanket
+    3300016: BureauLaden
+    3300018: Cabinet
+    3300020: Cabinet.001
+    3300022: Clock - 8:15
+    3300024: desk
+    3300026: desk.001
+    3300028: door
+    3300030: Door-L
+    3300032: Door-L.001
+    3300034: Door-R
+    3300036: Door-R.001
+    3300038: dopsleutel
+    3300040: drill.001
+    3300042: duspol
+    3300044: electric-screwdriver
+    3300046: Extintor_0
+    3300048: fuse-puller
+    3300050: Gloves
+    3300052: helmet.001
+    3300054: isolation-mat
+    3300056: label-warning 1
+    3300058: Ladekast
+    3300060: metal04
+    3300062: multitool
+    3300064: padlock
+    3300066: padlock.001
+    3300068: padlock.002
+    3300070: phone
+    3300072: plant
+    3300074: plastich clamp.001
+    3300076: screwdriver.000
+    3300078: screwdriver.001
+    3300080: smal-cabinet
+    3300082: Wall - proportion mesuring
+    3300084: wall-socket
+    3300086: wall-socket.001
+    3300088: wall-socket.002
+    3300090: Werkbank1
+    3300092: window
+    3300094: workbenche.001
+    3300096: wrench
+    3300098: yardstick
+    4300000: padlock.002
+    4300002: padlock.001
+    4300004: wall-socket.001
+    4300006: wall-socket.002
+    4300008: door
+    4300010: workbenche.001
+    4300012: drill.001
+    4300014: Cabinet.001
+    4300016: Door-R.001
+    4300018: Door-L.001
+    4300020: desk.001
+    4300022: Wall - proportion mesuring
+    4300024: phone
+    4300026: 0TOOLBOARD
+    4300028: screwdriver.000
+    4300030: label-warning 1
+    4300032: helmet.001
+    4300034: duspol
+    4300036: arc-helmet-green
+    4300038: arc-helmet-blue
+    4300040: 07-fuse-block-M.000
+    4300042: 08-fuse-block-M.002
+    4300044: Gloves
+    4300046: blanket
+    4300048: fuse-puller
+    4300050: 003-Safetyglases
+    4300052: isolation-mat
+    4300054: multitool
+    4300056: plastich clamp.001
+    4300058: screwdriver.001
+    4300060: wrench
+    4300062: yardstick
+    4300064: desk
+    4300066: smal-cabinet
+    4300068: plant
+    4300070: Extintor_0
+    4300072: Cabinet
+    4300074: Door-L
+    4300076: Door-R
+    4300078: electric-screwdriver
+    4300080: dopsleutel
+    4300082: wall-socket
+    4300084: Clock - 8:15
+    4300086: 08:15
+    4300088: padlock
+    4300090: window
+    4300092: BureauLaden
+    4300094: Ladekast
+    4300096: Werkbank1
+    4300098: metal04
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

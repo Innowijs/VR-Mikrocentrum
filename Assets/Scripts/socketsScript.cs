@@ -122,6 +122,7 @@ public class socketsScript : MonoBehaviour
                 if (item.name == "left_"+currentFuse.name)
                 {
                     item.SetActive(true);
+                    activeDuspol1 = item;
                 }
             }
         }
@@ -132,6 +133,7 @@ public class socketsScript : MonoBehaviour
                 if (item.name == "right_"+currentFuse.name)
                 {
                     item.SetActive(true);
+                    activeDuspol2 = item;
                 }
             }
             foreach (TextMesh item in dupolDisplay)

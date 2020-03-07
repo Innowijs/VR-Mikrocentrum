@@ -110,7 +110,7 @@ public class FuseBoxScript2 : MonoBehaviour
     bool technicalDrawingLooked = false;
     bool cablesDismantled = false;
     public List<BoxCollider> fusesOnMachine;
-
+    public bool canOpenDoor=false;
     public void DeactiveteFusesOnMachine() {
         foreach (BoxCollider item in fusesOnMachine)
         {
@@ -230,11 +230,15 @@ public class FuseBoxScript2 : MonoBehaviour
             }
             else if (hit.transform.name == "leverDoor" && !dangerStickerOn)
             {
-                manager.lineCheck[3] = true;
-                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || test)
+                if (canOpenDoor)
                 {
-                    test = false;
-                    OpenFuseDoor();
+                    manager.lineCheck[3] = true;
+                    if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || test)
+                    {
+                        test = false;
+
+                        OpenFuseDoor();
+                    }
                 }
             }
             else if (hit.transform.name == "phone")
@@ -265,21 +269,21 @@ public class FuseBoxScript2 : MonoBehaviour
                         phoneScript.ActivetePhone(hit.transform);
                         telefon = "third";
                     }
-                    switch (telefon)
-                    {
-                        case "first":
-                            phoneAudio1.Play();
-                            phoneScript.ActivetePhone(hit.transform);
-                            break;
-                        //case "second":
-                        //    phoneAudio2.Play();
-                        //    phoneScript.ActivetePhone(hit.transform);
-                        //    break;
-                        case "third":
-                            phoneAudio3.Play();
-                            phoneScript.ActivetePhone(hit.transform);
-                            break;
-                    }
+                    //switch (telefon)
+                    //{
+                    //    case "first":
+                    //        phoneAudio1.Play();
+                    //        phoneScript.ActivetePhone(hit.transform);
+                    //        break;
+                    //    //case "second":
+                    //    //    phoneAudio2.Play();
+                    //    //    phoneScript.ActivetePhone(hit.transform);
+                    //    //    break;
+                    //    case "third":
+                    //        phoneAudio3.Play();
+                    //        phoneScript.ActivetePhone(hit.transform);
+                    //        break;
+                    //}
                 }
             }
             else if (hit.transform.parent.name == "fuses" && duspolOn)

@@ -33,7 +33,7 @@ public class tutorialScript : MonoBehaviour
             manager.ControllerGuide[9].SetActive(false);
             manager.Controller.SetActive(true);
             bubbleWithText.SetActive(true);
-            bubbleText.text = "Main Menu";
+            bubbleText.text = "Menu";
         }
     }
 

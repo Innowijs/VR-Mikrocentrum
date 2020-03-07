@@ -10,7 +10,7 @@ public class MenuChecker2 : MonoBehaviour
     public GameObject room3;
     public OVRPlayerController controller;
     public FuseBoxScript2 fuseboxScript;
-    public BoxCollider headLookingCollider;
+   // public BoxCollider headLookingCollider;
     public AudioSource technicalRoomSound;
     public AudioSource productionRoomSound;
 
@@ -37,6 +37,10 @@ public class MenuChecker2 : MonoBehaviour
             productionRoomSound.enabled = true;
             room2.SetActive(true);
             StartCoroutine("startPointer");
+        }
+        else if (other.gameObject.name == "canOpenDoor")
+        {
+            fuseboxScript.canOpenDoor = true;
         }
         else if (other.gameObject.name == "FreezeFloor")
         {
@@ -70,6 +74,9 @@ public class MenuChecker2 : MonoBehaviour
             productionRoomSound.enabled = false;
             room2.SetActive(false);
         }
-     
+        else if (other.gameObject.name == "canOpenDoor")
+        {
+            fuseboxScript.canOpenDoor = false;
+        }
     }
 }

@@ -269,37 +269,37 @@ public class FuseBoxScript : MonoBehaviour
                     //    phoneScript.isGray = true;
                     //    return;
                     //}
-                    switch (telefon)
-                    {
-                        case "first":
-                            Debug.Log("1");
-                            phoneStart.Play(1);
-                            hit.transform.GetComponent<MeshRenderer>().materials[1].color = greenLight.color;
-                            phoneScript.isGray = true;
-                            break;
-                        case "second":
-                            Debug.Log("2");
-                            phonePermitSound.Play(1);
-                            hit.transform.GetComponent<MeshRenderer>().materials[1].color = greenLight.color;
-                            phoneScript.isGray = true;
-                            break;
-                        case "third":
-                            Debug.Log("3");
-                            phoneEnd.Play(1);
-                            hit.transform.GetComponent<MeshRenderer>().materials[1].color = greenLight.color;
-                            phoneScript.isGray = true;
-                            break;
-                            //case "fourth":
-                            //    Debug.Log("telefon 4");
-                            //    phoneRing.Stop();
-                            //    phoneAngryChef.Play(1);
-                            //    phonePlayedOnce = true;
-                            //    phonePlayChefOnce = true;
-                            //    phoneScript.gameObject.GetComponent<MeshRenderer>().materials[1].color = redLight.color;
-                            //    phoneScript.startFlashing = false;
-                            //    phoneScript.isGray = true;
-                            //    break;
-                    }
+                    //switch (telefon)
+                    //{
+                    //    case "first":
+                    //        Debug.Log("1");
+                    //        phoneStart.Play(1);
+                    //        hit.transform.GetComponent<MeshRenderer>().materials[1].color = greenLight.color;
+                    //        phoneScript.isGray = true;
+                    //        break;
+                    //    case "second":
+                    //        Debug.Log("2");
+                    //        phonePermitSound.Play(1);
+                    //        hit.transform.GetComponent<MeshRenderer>().materials[1].color = greenLight.color;
+                    //        phoneScript.isGray = true;
+                    //        break;
+                    //    case "third":
+                    //        Debug.Log("3");
+                    //        phoneEnd.Play(1);
+                    //        hit.transform.GetComponent<MeshRenderer>().materials[1].color = greenLight.color;
+                    //        phoneScript.isGray = true;
+                    //        break;
+                    //        //case "fourth":
+                    //        //    Debug.Log("telefon 4");
+                    //        //    phoneRing.Stop();
+                    //        //    phoneAngryChef.Play(1);
+                    //        //    phonePlayedOnce = true;
+                    //        //    phonePlayChefOnce = true;
+                    //        //    phoneScript.gameObject.GetComponent<MeshRenderer>().materials[1].color = redLight.color;
+                    //        //    phoneScript.startFlashing = false;
+                    //        //    phoneScript.isGray = true;
+                    //        //    break;
+                    //}
 
                     //else if (!phoneNotPickedUp)
                     //{
