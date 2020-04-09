@@ -333,6 +333,16 @@ public class PickingUpScript : MonoBehaviour {
             bubbleWithText.SetActive(true);
             bubbleText.text = "Label";
         }
+        else if (name == "Wrench")
+        {
+            bubbleWithText.SetActive(true);
+            bubbleText.text = "Bahco sleutel";
+        }
+        else if (name == "Yardstick")
+        {
+            bubbleWithText.SetActive(true);
+            bubbleText.text = "Rolmaat";
+        }
         else if (name == "Screwdrivers")
         {
             bubbleWithText.SetActive(true);

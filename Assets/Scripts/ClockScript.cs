@@ -41,5 +41,6 @@ public class ClockScript : MonoBehaviour
         yield return new WaitForSecondsRealtime(10f * 14f);
         Debug.Log("CLOCK IS READY!!!!!!!!!!!!!!!!!!!!");
         fuseboxScript.ClockReady = true;
+        fuseboxScript.electricityOff = true;
     }
 }

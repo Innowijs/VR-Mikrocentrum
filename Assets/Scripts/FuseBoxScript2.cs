@@ -134,7 +134,8 @@ public class FuseBoxScript2 : MonoBehaviour
         }
         Debug.Log("how many correct measurements: "+correctMeasures.Count);
     }
-    bool startClockOnce = true;
+    bool powerSwitchActive = true;
+    bool SwitchNotOff = true;
     void Update()
     {
         if (showLight)
@@ -157,9 +158,9 @@ public class FuseBoxScript2 : MonoBehaviour
                 manager.lineCheck[3] = true;
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || test)
                 {
-                    if (startClockOnce)
+                    if (powerSwitchActive)
                     {
-                        startClockOnce = false;
+                        powerSwitchActive = false;
                         StartCoroutine(clockScript.StartCountdown());
                     }
 
@@ -228,7 +229,7 @@ public class FuseBoxScript2 : MonoBehaviour
                     RemoveMotorCover();
                 }
             }
-            else if (hit.transform.name == "leverDoor" && !dangerStickerOn)
+            else if (hit.transform.name == "fuseBoxDoor" && !dangerStickerOn)
             {
                 if (canOpenDoor)
                 {
@@ -289,24 +290,49 @@ public class FuseBoxScript2 : MonoBehaviour
             else if (hit.transform.parent.name == "fuses" && duspolOn)
             {
                 manager.lineCheck[3] = true;
-                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || test)
+                if (Input.GetKeyDown(KeyCode.Mouse0) || test)
                 {
+
+                    if (ClockReady && powerSwitchOn == false) // checkClockOnce &&  // all good
+                    {
+                        if (checkClockOnce)
+                        {
+                            checkClockOnce = false;
+                            clockWaited = true;
+                        }
+                        if (switchCheckOnce)
+                        {
+                            SwitchNotOff = false;
+                        }
+                        electricityOff = true;
+                    }
+                    else if (ClockReady == false && powerSwitchOn == true) //checkClockOnce &&// have NOT switch off the power.
+                    {
+
+                        checkClockOnce = false;
+                        electricityOff = false;
+                        switchCheckOnce = false;
+                    }
+                    else if (ClockReady == false && powerSwitchOn == false)//checkClockOnce && // have switched the power OFF and NOT waited the clock
+                    {
+                        if (onceSparks)
+                        {
+                            electricShock.Play();
+                            foreach (GameObject particle in electricParticles)
+                            {
+                                particle.SetActive(true); // particles effect when wrong move!
+                            }
+                            onceSparks = false;
+                        }
+                        if (switchCheckOnce)
+                        {
+                            SwitchNotOff = false;
+                        }
+                        checkClockOnce = false;
+                        electricityOff = true;
+                    }
                     test = false;
                     MeasureFuse(hit.transform.name);
-                    if (checkClockOnce && ClockReady)// all good
-                    {
-                        clockWaited = true;
-                        checkClockOnce = false;
-                    }
-                    else if (checkClockOnce && ClockReady == false) // not waited
-                    {
-                        checkClockOnce = false;
-                        electricShock.Play();
-                        foreach (GameObject particle in electricParticles)
-                        {
-                            particle.SetActive(true); // particles effect when wrong move!
-                        }
-                    }
                 }
             }
             else
@@ -319,7 +345,8 @@ public class FuseBoxScript2 : MonoBehaviour
             manager.lineCheck[3] = false;
         }
     }
-
+    bool onceSparks = true;
+    bool switchCheckOnce = true;
     public GameObject GridsOnFuse;
     public void PutGridsOnFuses()
     {
@@ -466,7 +493,7 @@ public class FuseBoxScript2 : MonoBehaviour
             secondChecked = "";
         }
     }
-    bool electricityOff = true;
+    public bool electricityOff = true;
 
     bool doorOpened = false;
     public GameObject fuseDoor;
@@ -542,7 +569,7 @@ public class FuseBoxScript2 : MonoBehaviour
             }
             else
             {
-                displayElectricity("400");
+                displayElectricity("230");
                 if (measurementsCorrect)
                 {
                     checkDuspolSecondTime = true;
@@ -574,7 +601,7 @@ public class FuseBoxScript2 : MonoBehaviour
             }
             else
             {
-                displayElectricity("400");
+                displayElectricity("230");
                 if (measurementsCorrect)
                 {
                     checkDuspolSecondTime = true;
@@ -590,7 +617,7 @@ public class FuseBoxScript2 : MonoBehaviour
             }
             else
             {
-                displayElectricity("400");
+                displayElectricity("230");
                 if (measurementsCorrect)
                 {
                     checkDuspolSecondTime = true;
@@ -690,48 +717,56 @@ public class FuseBoxScript2 : MonoBehaviour
         {
             mistakes.Add("3");
         }
-        if (padlockAndStickerOnPowerSwitch.activeSelf == false)
+        if (SwitchNotOff)
         {
             mistakes.Add("4");
         }
-        if (mainBoxDangerStickerOn == false)
+        if (padlockAndStickerOnPowerSwitch.activeSelf == false)
         {
             mistakes.Add("5");
         }
-        if (clockWaited == false)
+        if (mainBoxDangerStickerOn == false)
         {
             mistakes.Add("6");
         }
-        if(goodFuse1.activeSelf ==true || goodFuse2.activeSelf == true|| goodFuse3.activeSelf == true)
+        if (clockWaited == false)
         {
             mistakes.Add("7");
         }
-        if (badFuse1.activeSelf == false || badFuse2.activeSelf == false || badFuse3.activeSelf == false)
+        if(goodFuse1.activeSelf ==true || goodFuse2.activeSelf == true|| goodFuse3.activeSelf == true)
         {
             mistakes.Add("8");
         }
-        if (GridsOnFuse.activeSelf == false)
+        if (badFuse1.activeSelf == false || badFuse2.activeSelf == false || badFuse3.activeSelf == false)
         {
             mistakes.Add("9");
         }
-        if (duspolTested == false)
+        if (GridsOnFuse.activeSelf == false)
         {
             mistakes.Add("10");
         }
+        if (duspolTested == false)
+        {
+            mistakes.Add("11");
+        }
         if (measurementsCorrect == false)
         { 
-                mistakes.Add("11");
+                mistakes.Add("12");
         }
         if (checkDuspolSecondTime==false)
         {
-            mistakes.Add("12");
+            mistakes.Add("13");
         }
         //if (cablesDismantled == false) {
         //    mistakes.Add("13");
         //}
         if (thirdPhoneChecked == false)
         {
-            mistakes.Add("13");
+            mistakes.Add("14");
+        }
+        if (doorOpened)
+        {
+            mistakes.Add("15");
         }
     }
 

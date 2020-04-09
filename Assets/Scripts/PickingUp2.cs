@@ -25,6 +25,7 @@ public class PickingUp2 : MonoBehaviour
     bool isGreen;
     public GameObject bubbleWithText;
     public TextMeshPro bubbleText;
+    public GameObject screwDriverBubble;
     private void Start()
     {
         manager.lineCheck.Add(isGreen);
@@ -191,6 +192,16 @@ public class PickingUp2 : MonoBehaviour
                         fuseScript.takeFusePuller();
                     }
                 }
+                else if (hit.transform.name == "DummyFuses" && (!fuseScript.screwOn && !fuseScript.dummyFuseOn))
+                {
+                    bubbleWithText.SetActive(false);
+                    if (Input.GetKeyDown(KeyCode.Mouse0) || test)
+                    {
+                        screwDriverBubble.SetActive(true);
+
+                        test = false;
+                    }
+                }
                 else if (hit.transform.name == "DummyFuses" && (fuseScript.screwOn || fuseScript.dummyFuseOn))
                 {
                     if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || test)
@@ -239,6 +250,7 @@ public class PickingUp2 : MonoBehaviour
             else
             {
                 bubbleWithText.SetActive(false);
+                screwDriverBubble.SetActive(false);
                 manager.lineCheck[2] = false;
             }
 
@@ -246,6 +258,7 @@ public class PickingUp2 : MonoBehaviour
         else
         {
             bubbleWithText.SetActive(false);
+            screwDriverBubble.SetActive(false);
             manager.lineCheck[2] = false;
         }
     }
@@ -256,6 +269,16 @@ public class PickingUp2 : MonoBehaviour
         {
             bubbleWithText.SetActive(true);
             bubbleText.text = "Helm met gelaatsscherm incl. vlamboogprotectie";
+        }
+        else if (name == "Wrench")
+        {
+            bubbleWithText.SetActive(true);
+            bubbleText.text = "Bahco sleutel";
+        }
+        else if (name == "Yardstick")
+        {
+            bubbleWithText.SetActive(true);
+            bubbleText.text = "Rolmaat";
         }
         else if (name == "Gloves")
         {
