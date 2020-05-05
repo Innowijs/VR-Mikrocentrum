@@ -35,7 +35,7 @@ public class MenuManager : MonoBehaviour {
         {
             if (blockRaycast)
             {
-                Debug.Log("blocking all raycasts in this script");
+               
                 return;
             }
             if (hit.transform.parent.name == "Menus")
